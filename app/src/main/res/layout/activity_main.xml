@@ -16,7 +16,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="Quantity"
-        android:textAllCaps="true" />
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#616161"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -27,7 +30,9 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:onClick="decrement"
-            android:text="-" />
+            android:text="-"
+            android:textColor="#000000"
+            android:id="@+id/Button1"/>
 
         <TextView
             android:id="@+id/quantity_text_view"
@@ -35,15 +40,18 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
+            android:fontFamily="sans-serif-light"
             android:text="0"
-            android:textColor="@android:color/black"
+            android:textColor="#000000"
             android:textSize="16sp" />
 
         <Button
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:onClick="increment"
-            android:text="+" />
+            android:text="+"
+            android:textColor="#000000"
+            android:id="@+id/Button2"/>
 
     </LinearLayout>
 
@@ -60,7 +68,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="$0"
-        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#616161"
         android:textSize="16sp" />
 
     <Button
@@ -68,6 +77,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:onClick="submitOrder"
-        android:text="Order" />
+        android:text="Order"
+        android:textColor="#000000"
+        android:id="@+id/Button3"/>
 
 </LinearLayout>
