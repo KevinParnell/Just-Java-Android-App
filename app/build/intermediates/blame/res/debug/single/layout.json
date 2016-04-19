@@ -32,12 +32,12 @@
         "source": "/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_action.xml"
-    },
-    {
         "merged": "/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",

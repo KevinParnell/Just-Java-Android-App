@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
+    format="7"
+    timestamp="41850881950507" >
+
+    <task
+        name="javac"
+        duration="283" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="95" />
+    <task
+        name="verifier"
+        duration="17" />
+
+    <artifact
+        location="/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+        type="DEX" />
+
+    <build timestamp="40791250599981" >
+        <artifact
+            location="/home/kevin/AndroidStudioProjects/JustJava3/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="41850881950507" >
+        <artifact
+            location="/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

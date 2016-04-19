@@ -2,7 +2,9 @@ package com.example.kevin.justjava;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.TextView;
 
 import com.example.kevin.justjava.R;
@@ -34,8 +36,14 @@ public class MainActivity extends AppCompatActivity {
         display(quantity);
     }
     public void submitOrder(View view) {
+        CheckBox whippedCreamCheckBox = (CheckBox) findViewById(R.id.whipped_cream_checkbox);
+        boolean hasWhippedCream = whippedCreamCheckBox.isChecked();
+        Log.v("MainActivity", "Has whipped cream: " + hasWhippedCream);
+        CheckBox chocolateCheckBox = (CheckBox) findViewById(R.id.chocolate_checkbox);
+        boolean hasChocolate = chocolateCheckBox.isChecked();
+        Log.v("MainActivity", "Has chocolate: " + hasChocolate);
         int price = calculatePrice();
-        String priceMessage = createOrderSummary(price);
+        String priceMessage = createOrderSummary(price, hasWhippedCream, hasChocolate);
         displayMessage(priceMessage );
     }
     /**
@@ -51,13 +59,24 @@ public class MainActivity extends AppCompatActivity {
         return quantity * 5;
     }
 
-    private String createOrderSummary(int price){
+    /**
+     *
+     * @param price of the order.
+     * @param addWhippedCream is whether or not the user wants whipped cream topping
+     * @param addChocolate is whether or not the user wants chocolate.
+     * @return text summary
+     */
+
+    private String createOrderSummary(int price, boolean addWhippedCream, boolean addChocolate){
         String priceMessage = "Name: Kevin Parnell";
+        priceMessage += "\nAdd whipped cream? " +addWhippedCream;
+        priceMessage += "\nAdd chocolate? " +addChocolate;
         priceMessage += "\nQuantity: " + quantity;
         priceMessage += "\nTotal: $" + price;
         priceMessage += "\nThank you!";
         return priceMessage;
     }
+
     private void displayQuantity(int numberOfCoffees) {
         TextView quantityTextView = (TextView) findViewById(
                     R.id.quantity_text_view);

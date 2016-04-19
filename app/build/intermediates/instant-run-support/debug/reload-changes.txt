@@ -1,0 +1,10 @@
+CHANGED,/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/kevin/justjava/R$style$override.class
+CHANGED,/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$id$override.class
+CHANGED,/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/kevin/justjava/R$styleable$override.class
+CHANGED,/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/kevin/justjava/R$string$override.class
+CHANGED,/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/kevin/justjava/MainActivity$override.class
+CHANGED,/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/kevin/justjava/R$integer$override.class
+CHANGED,/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/kevin/justjava/R$mipmap$override.class
+CHANGED,/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/kevin/justjava/R$layout$override.class
+CHANGED,/home/kevin/AndroidStudioProjects/JustJava3/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/kevin/justjava/R$id$override.class
